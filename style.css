@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    color:red;
+}
+.searchbar{
+    display: flex;
+    border: solid black 2px;
+    width: 30%;
+    padding: 15PX;
+    justify-content: space-around;
+    border-radius: 30px;/*vattam ah varathuku*/
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;/*search bar fulla kudavey varum croll panum pothu*/
+    top: 0px;
+    background-color: white;
+    align-items: center;/*center ah varum ellamey*/
+}
+.filter
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.hotels{
+    display: flex;
+    padding: 18px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer{
+    padding: 4.5px;
+    background-color:white;
+    bottom: 0px;
+    width: 100%;
+}
+img{
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.05);/*current stage lenthu komja perusagu*/
+
+}
+.logo2{
+    color: red;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.fimg{
+    border: solid;
+    border-color:white;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.boxs1,.boxs2,.boxs3,.boxs4 img{
+    text-align: center;
+    object-fit: cover;
+    
+}
+.boxs1 img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.boxs2 img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.boxs3 img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.boxs4 img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.boxs5 img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.girlbox{
+    border:solid gray;
+   background-color:white ;
+   margin-top: 150px;
+   margin-left: 20px;
+   width: 100%;
+   height: 300px;
+   display: flex;
+   background-size: cover; 
+}
+.lbox{
+    text-align: center;
+    border: solid white;
+    background-color:white ;
+    margin-top: 50px;
+    width: 100%;
+    height: 160px;
+}
+.text{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.hpy{
+    margin-top: 38px;
+    margin-left: 20px;
+    object-fit: cover;
+}
